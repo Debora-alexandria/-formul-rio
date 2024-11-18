@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulário</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form>
+        <h4>Formulário</h4>
+        <fieldset class="form"><legend>Dados pessoais</legend>
+            <p>Nome:
+                <input type="text" name="Nome" size="28" maxlength="30" placeholder="Nome Completo"></p>
+                <p>
+                    E-mail:
+                    <input type="text" name="email" size="28" maxlength="30" placeholder="Digite seu E-mail"></p>
+                <p>Masculino:
+                    <input type="radio" name="sexo">
+                    Feminino:
+                    <input type="radio" name="sexo">
+            </p>
+            <p>
+                <input type="date" name="datadenascimento" size="28" maxlength="30" placeholder="Digite sua data de nascimento">
+            </p>
+
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Endereço Residencial</legend>
+                    <p>Cidade:
+                        <input type="text" name="Cidade" size="28" maxlength="30" placeholder="Digite sua cidade">
+                    </p>
+                    <p>Estado:
+                        <select>
+                                <option value="CE">Ceará</option>
+                                <option value="BA">Bahia</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="MG">Minas Gerais</option>
+                        </optin>
+                        </select>
+                    </p>
+                </fieldset>
+    </form>
+    <input type="submit" value="Enviar">
+</body>
+</html>
